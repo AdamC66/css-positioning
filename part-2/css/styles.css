@@ -22,8 +22,39 @@ img {
 figure {
   margin: 0;
 }
-
 .film {
   width: 50%;
   margin: 40px auto;
+  border: 1px solid #eee;
+  overflow: auto;
+  padding: 10px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 5px;
+}
+
+.film figure {
+  width: 100%;
+  position: relative;
+}
+
+.fa {
+  color: blue;
+}
+
+.film-details{
+  margin-left: 10px;
+}
+
+.action-watch-later {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.action-like {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
 }
